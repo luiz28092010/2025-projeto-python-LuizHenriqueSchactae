@@ -1,0 +1,35 @@
+01. Tipos de Dados e Variáveis
+Arquivo: meu_projeto.py
+Linha 13: acertos = 0
+Explicação: A variável acertos armazena o número de respostas corretas. Ela começa com o valor 0 e vai aumentando conforme o jogador acerta as perguntas.
+
+02. Operadores
+Arquivo: meu_projeto.py
+Linha 7: operador = random.choice(operadores)
+Explicação: O comando random.choice(operadores) escolhe um operador aleatório (como +, -, * ou /) da lista de operadores para ser usado na pergunta de matemática.
+
+03. Saída de Dados
+Arquivo: meu_projeto.py
+Linha 35: print(" correto Você acertou!")
+Explicação: O comando print() é usado para mostrar uma mensagem na tela. Neste caso, ele mostra "Você acertou!" quando o jogador dá a resposta certa.
+
+04. Entrada de Dados
+Arquivo: meu_projeto.py
+Linha 25: resposta = float(input(f"\nPergunta {i + 1}: Quanto é {pergunta}? "))
+Explicação: O comando input() pede para o jogador digitar a resposta. Depois, a resposta é transformada em número decimal (float) com o comando float(), para aceitar números com casas decimais.
+
+05. Estruturas de Decisão
+Arquivo: meu_projeto.py
+Linha 16: if operador == '/':
+Explicação: O comando if verifica se o operador sorteado é uma divisão (/). Se for, ele garante que a divisão seja exata, ou seja, o número da divisão não tenha resto.
+
+06. Estruturas de Repetição
+Arquivo: meu_projeto.py
+Linha 25: for i in range(tentativas):
+Explicação: O comando for é usado para repetir o processo de fazer as perguntas. Ele repete o código 5 vezes, já que a variável tentativas está definida com o valor 5.
+
+07. Sub-rotinas (Funções)
+Arquivo: meu_projeto.py
+Linha 7: def gerar_pergunta():
+Explicação: A palavra def serve para criar uma função chamada gerar_pergunta(). Essa função cria as perguntas e calcula as respostas para o jogo.
+
